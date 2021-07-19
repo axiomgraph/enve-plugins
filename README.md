@@ -20,6 +20,10 @@ Currently two values are available
 
 How to use
 Select your layer >> Actions >> Raster Effects >> Filters >> Pixelate
+before
+https://github.com/axiomgraph/Shader-effects-for-enve-2d/raw/main/sample/monkey-6268446_1280.jpg
+
+After
 
 ![alt text](https://github.com/axiomgraph/Shader-effects-for-enve-2d/raw/main/sample/Screenshot%20from%202021-07-19%2011-46-00.png)
 
