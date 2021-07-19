@@ -8,7 +8,7 @@ copy both files(frag and gre)to
  
 How to install in Windows
 /Users/username/.enve/ShaderEffects
-
+[Invert Color]
 How to use
 Select your layer Rightclick Actions >> Raster Effects >> Color >> Invert
 
@@ -16,6 +16,10 @@ Currently two values are available
 0 means no invert
 1 means invert colors
 
+[Pixelate layers]
+
+How to use
+Select your layer >> Actions >> Raster Effects >> Filters >> Pixelate
 
 Things to done
 adjustable invert.
