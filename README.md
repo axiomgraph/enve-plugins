@@ -16,10 +16,12 @@ Currently two values are available
 0 means no invert
 1 means invert colors
 
-[Pixelate layers]
+[Pixelate layers] Needs improvement
 
 How to use
 Select your layer >> Actions >> Raster Effects >> Filters >> Pixelate
+
+![alt text](https://github.com/axiomgraph/Shader-effects-for-enve-2d/raw/main/sample/Screenshot%20from%202021-07-19%2011-46-00.png)
 
 Things to done
 adjustable invert.
