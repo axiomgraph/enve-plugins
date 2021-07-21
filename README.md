@@ -31,6 +31,13 @@ Select your layer >> Actions >> Raster Effects >> Filters >> Pixelate
 ## Wave Warp effect
 ![alt text](https://github.com/axiomgraph/Shader-effects-for-enve-2d/blob/main/sample/wave_warp.png)
 
-https://raw.githubusercontent.com/axiomgraph/Shader-effects-for-enve-2d/main/sample/monkey.mp4
+
+## Simple Glitch Effect
+how to use rightclick on layer >> actions >> raster effects >> filters >> Simple Glitch
+
+
+https://user-images.githubusercontent.com/68183694/126427728-6c745a33-3c58-4fad-88e6-50db6daf15c6.mp4
+
+
 
 More Shaders comming soon
