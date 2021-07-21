@@ -18,7 +18,7 @@ Currently two values are available
 
 ## Pixelate layers (Needs improvement)
 
-How to use
+How to use ?
 Select your layer >> Actions >> Raster Effects >> Filters >> Pixelate
 
 ## before
