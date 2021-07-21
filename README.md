@@ -31,6 +31,6 @@ Select your layer >> Actions >> Raster Effects >> Filters >> Pixelate
 ## Wave Warp effect
 ![alt text](https://github.com/axiomgraph/Shader-effects-for-enve-2d/blob/main/sample/wave_warp.png)
 
-![alt text](https://github.com/axiomgraph/Shader-effects-for-enve-2d/raw/main/sample/monkey.mp4)
+https://github.com/axiomgraph/Shader-effects-for-enve-2d/raw/main/sample/monkey.mp4
 
 More Shaders comming soon
