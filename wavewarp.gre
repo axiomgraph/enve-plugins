@@ -5,5 +5,5 @@
         <Property name="amplitude" type="float" min="0.0" max="1.0" ini="0.02" step ="0.01" glValue="true"/>
          
          </Properties>
-    <Margin value="size"/>
+    <Margin value="1000"/>
 </ShaderEffect>
