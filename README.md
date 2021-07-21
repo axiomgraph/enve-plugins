@@ -38,4 +38,4 @@ how to use rightclick on layer >> actions >> raster effects >> filters >> Simple
 ![alt text](https://raw.githubusercontent.com/axiomgraph/Shader-effects-for-enve-2d/main/sample/mpv-shot0006.jpg)
 
 
-More Shaders comming soon
+More Shaders coming soon
