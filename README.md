@@ -35,11 +35,7 @@ Select your layer >> Actions >> Raster Effects >> Filters >> Pixelate
 ## Simple Glitch Effect
 how to use rightclick on layer >> actions >> raster effects >> filters >> Simple Glitch
 
-
-
-
-https://user-images.githubusercontent.com/68183694/126429496-b65e8138-1aea-4e3e-b18a-c339e8edee32.mp4
-
+![alt text](https://raw.githubusercontent.com/axiomgraph/Shader-effects-for-enve-2d/main/sample/mpv-shot0006.jpg)
 
 
 More Shaders comming soon
