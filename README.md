@@ -36,7 +36,9 @@ Select your layer >> Actions >> Raster Effects >> Filters >> Pixelate
 how to use rightclick on layer >> actions >> raster effects >> filters >> Simple Glitch
 
 
-https://user-images.githubusercontent.com/68183694/126427728-6c745a33-3c58-4fad-88e6-50db6daf15c6.mp4
+
+
+https://user-images.githubusercontent.com/68183694/126429496-b65e8138-1aea-4e3e-b18a-c339e8edee32.mp4
 
 
 
