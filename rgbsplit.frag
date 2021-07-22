@@ -1,4 +1,4 @@
-
+// credit axiomgraph
 // Opengl version 3.3
 #version 330 core
 
@@ -14,6 +14,10 @@ uniform vec2 redchannel;
 uniform vec2 greenchannel;
 uniform vec2 bluechannel;
 
+uniform int redOnOff;
+uniform int greenOnOff;
+uniform int blueOnOff;
+
 void main( void )
 {
 	vec2 uv = texCoord;
@@ -28,14 +32,35 @@ void main( void )
     	 float bdx = bluechannel.x; //controls green channel on x axis
     	 float bdy = bluechannel.y; //controls green channel on y axis
     	 
-    	 
-    	
-    	 vec4 tex = vec4(texture2D(texture, vec2(uv.x+rdx,uv.y+rdy)).r,
-                    texture2D(texture,vec2(uv.x+gdx,uv.y+gdy)).g,
-                    texture2D(texture, vec2(uv.x+bdx,uv.y+bdy)).b,
+	 int redoff; 
+    	 int greenoff;
+    	 int blueoff;
+    	 if( redOnOff < 1){ // switch off red channel 
+		 redoff = 1;
+		} else{
+		redoff = 0;
+		}
+		if( greenOnOff < 1){ // switch off green channel 
+		 greenoff = 1;
+		} else{
+		greenoff = 0;
+		}
+
+		if( blueOnOff < 1)  // switch off blue channel
+		{ 
+	 	blueoff = 1;
+		} else{
+		blueoff = 0;
+		}
+
+    	 vec4 tex = vec4(texture2D(texture, vec2(uv.x-rdx,uv.y-rdy)).r,
+                    texture2D(texture,vec2(uv.x-gdx,uv.y-gdy)).g,
+                    texture2D(texture, vec2(uv.x-bdx,uv.y-bdy)).b,
                     texture2D(texture, texCoord.xy).a
                    );	
+
     	
-    fragColor = tex;
+    fragColor = vec4(tex.r-redoff,tex.g-greenoff,tex.b-blueoff,tex.a);
+
 
 }
