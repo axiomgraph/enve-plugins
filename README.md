@@ -6,8 +6,7 @@ Shader for inverting colors
 copy both files(frag and gre)to
 /home/username/.enve/ShaderEffects
  
-## How to install in Windows
-/Users/username/.enve/ShaderEffects
+
 ## Invert Color
 How to use ?
 Select your layer Rightclick Actions >> Raster Effects >> Color >> Invert
