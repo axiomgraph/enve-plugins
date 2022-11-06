@@ -43,15 +43,25 @@ how to use rightclick on layer >> actions >> raster effects >> filters >> RGB sp
 
 ![alt text](https://github.com/axiomgraph/Shader-effects-for-enve-2d/raw/main/sample/rgbsplit.png)
 
+
 ## Bloom Effect
 
 bloom effect I got from natron plugins
 
 how to use? 
-Select the layer you want to add bloom to. Right-click >> Actions >> Raster effects  >> Light and Shadow >> bloom. and play with those settings.
+Select the layer you want to add bloom to. Right-click >> Actions >> Raster Effects  >> Light and Shadow >> bloom. and play with those settings.
 
 ![Screenshot from 2022-11-06 09-24-31](https://user-images.githubusercontent.com/68183694/200153596-6e19f2ba-638f-4308-bc10-7864807306f3.png)
 ![Screenshot from 2022-11-06 09-24-40](https://user-images.githubusercontent.com/68183694/200153599-00756747-4c4b-468d-b843-0bd202b67a2b.png)
 
+## Swirl Effect
+
+How to use ?
+Select the layer you want to add swirl. Right-click >> Actions >> Raster Effects >> Distort >> Swirl
+
+![Screenshot from 2022-11-06 20-05-37](https://user-images.githubusercontent.com/68183694/200176958-b4a92258-0717-46fc-ab75-c6938abb237a.png)
+
+Found Any errors please let me know !
 
 More Shaders coming soon
+
