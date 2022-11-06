@@ -20,7 +20,7 @@ float rand(vec2 co){
 
 void main( void )
 {
-    vec2 uv = texCoord.xy /vec2(1,1);
+    vec2 uv = texCoord;
     vec4 texColor = texture2D(texture, uv);
     
     float gt = 30 + rand(vec2(0, 20)) * y;
