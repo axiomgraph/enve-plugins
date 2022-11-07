@@ -31,10 +31,11 @@ Select your layer >> Actions >> Raster Effects >> Filters >> Pixelate
 ![alt text](https://github.com/axiomgraph/Shader-effects-for-enve-2d/blob/main/sample/wave_warp.png)
 
 
-## Simple Glitch Effect
-how to use rightclick on layer >> actions >> raster effects >> filters >> Simple Glitch
+## Glitch Effect
+how to use? Select the layer you want to add Glitch Effect. right-click >> actions >> raster effects >>  Distort >> Glitch or Glitch2
 
-![alt text](https://raw.githubusercontent.com/axiomgraph/Shader-effects-for-enve-2d/main/sample/mpv-shot0006.jpg)
+
+![Screenshot from 2022-11-07 22-48-04](https://user-images.githubusercontent.com/68183694/200376121-aca68a42-5146-4150-931b-e875e5b46896.png)
 
 
 ## RGBSplit
