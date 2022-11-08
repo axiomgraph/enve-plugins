@@ -62,6 +62,12 @@ Select the layer you want to add swirl. Right-click >> Actions >> Raster Effects
 
 ![Screenshot from 2022-11-06 20-05-37](https://user-images.githubusercontent.com/68183694/200176958-b4a92258-0717-46fc-ab75-c6938abb237a.png)
 
+## Directional Blur
+How to use ?
+Select the layer you want to add Directional Blur. Right-click >> Actions >> Raster Effects >> blur >> Directional Blur
+![Screenshot from 2022-11-08 22-02-37](https://user-images.githubusercontent.com/68183694/200627192-f071aa19-d934-4256-a0fc-6ea76140597e.png)
+
+
 Found Any errors please let me know !
 
 More Shaders coming soon
