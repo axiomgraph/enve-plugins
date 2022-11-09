@@ -3,7 +3,7 @@
 #version 330 core
 layout(location = 0) out vec4 fragColor;
 uniform sampler2D texture;
-varying vec2 texCoord;
+in vec2 texCoord;
 
 
 uniform float gain; 
