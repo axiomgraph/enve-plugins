@@ -1,7 +1,9 @@
 # Shader-effects-for-enve-2d
+## How to Install on Windows ?
+copy all files from "For Windows Users" and paste them in C:\Users\Username\.enve\ShaderEffects
 
 
-## How to install in linux
+## How to install on linux
 
 copy both files(frag and gre)to
 /home/username/.enve/ShaderEffects
