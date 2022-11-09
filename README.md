@@ -3,7 +3,7 @@
 copy all files from "For Windows Users" and paste them in C:\Users\Username\.enve\ShaderEffects
 
 
-## How to install on linux
+## How to install on Linux
 
 copy both files(frag and gre)to
 /home/username/.enve/ShaderEffects
