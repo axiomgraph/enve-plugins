@@ -7,12 +7,11 @@ in vec2 texCoord;
 
 uniform sampler2D texture;
 uniform float size;
-uniform float x;
-uniform float y;
+
 void main(void) {
     
-    float dx = x*(size/512);
-    float dy = y*(size/512);
+    float dx = size/100;
+    float dy = size/100;
     // Magic Happens here
     vec2 coord = vec2(dx*floor(texCoord.x/dx),dy*floor(texCoord.y/dy));
     if (size <0.000001f){
