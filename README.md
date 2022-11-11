@@ -70,6 +70,12 @@ Select the layer you want to add Directional Blur. Right-click >> Actions >> Ras
 ![Screenshot from 2022-11-08 22-02-37](https://user-images.githubusercontent.com/68183694/200627192-f071aa19-d934-4256-a0fc-6ea76140597e.png)
 
 
+## Barrel distortion
+How to use ? 
+Select the layer you want to add Barrel distortion. Right-click >> Actions >> Raster Effects >> Distort >> Barrel distortion. play with those settings
+
+![Screenshot from 2022-11-11 19-17-13](https://user-images.githubusercontent.com/68183694/201353795-18ed7a3e-aecc-48ec-bbf7-6c272def3e3c.png)
+
 Found Any errors please let me know !
 
 More Shaders coming soon
