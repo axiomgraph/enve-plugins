@@ -1,5 +1,5 @@
 
-<ShaderEffect name="Wave Warp" menuPath="Filters">
+<ShaderEffect name="Wave Warp" menuPath="Distort">
     <Properties>
         <Property name="size" type="float" min="0.0" max="1000" ini="50.0" step="0.1" glValue="true"/>
         <Property name="amplitude" type="float" min="0.0" max="1.0" ini="0.02" step ="0.01" glValue="true"/>
