@@ -161,7 +161,7 @@ void main()
     outcol += rnd/255.0;
     
     if(clmpBool == 0)
-	{gl_FragColor = vec4( outcol);}
-    else {gl_FragColor = vec4( outcol);}
+	{fragColor = vec4( outcol);}
+    else {fragColor = vec4( outcol);}
 }
 
