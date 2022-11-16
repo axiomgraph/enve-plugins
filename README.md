@@ -1,4 +1,4 @@
-# Shader-effects-for-enve-2d
+# enve plugins
 ## How to Install on Windows ?
 copy all files from "For Windows Users" and paste them in C:\Users\Username\.enve\ShaderEffects
 
