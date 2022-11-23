@@ -7,4 +7,5 @@
             <Property name="frequency_in" nameUI="Frequency" type="float" min="0.0" max="100.0" ini="5.0" step ="1.0" glValue="true"/>
          <Property name="position_in" nameUI="Origin" type="vec2" min="-100.0" max="100.0" ini="5.0" step ="1.0" glValue="true"/>
   </Properties>
+  <Margin value="500"/>
 </ShaderEffect>
