@@ -5,7 +5,7 @@ built for enve by axiomgraph
     <Properties>
     <Property name="Angle" type="float" min="-1000.0" max="1000.0" ini="10.0" step ="1.0" glValue="true"/>
     
-    <Property name="Pivot" type="vec2" min="-100.0" max="100.0" ini="[50.0,50.0]" step ="1.0" glValue="true"/>
+    <Property name="Pivot" type="vec2" min="-10000.0" max="10000.0" ini="[50.0,50.0]" step ="1.0" glValue="true"/>
     <Property name="Gain"  type="float" min="0.0" max="10.0" ini="1.0" step ="0.5" glValue="true"/>
     <Property name="Quality" type="int" min="2" max="100" ini="30" step ="1" glValue="true"/>
     </Properties>   
