@@ -27,7 +27,7 @@ layout(location = 0) out vec4 fragColor;
 uniform sampler2D texture;
 
 in vec2 texCoord;
-//uniform vec2 scenePos;
+uniform vec2 scenePos;
 
 
 uniform int Quality;
@@ -35,13 +35,17 @@ uniform float Angle;
 uniform vec2 Pivot;
 uniform float Gain;
 
+float aspect = scenePos.x/scenePos.y;
+
 vec2 rotate(vec2 uv, vec2 p, float angle)
 {
 	mat2 rotation = mat2(vec2(cos(angle), -sin(angle)),
 						vec2(sin(angle), cos(angle)));
+	uv.x *= aspect;					
 	uv -= p;
 	uv = uv * rotation;
 	uv += p;
+	uv.x *= 1.0 / aspect;
 	return uv;
 }
 
@@ -50,7 +54,7 @@ vec2 rotate(vec2 uv, vec2 p, float angle)
 void main(void)
 {
 
-    //float aspect = scenePos.x /scenePos.y; //aspect ratio need fix. 
+    
     vec2 uv = texCoord;
     vec4 Color =vec4(0.0);
     float v;
