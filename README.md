@@ -1,16 +1,17 @@
 # enve plugins
 ![enve2d plugins](https://user-images.githubusercontent.com/68183694/202194317-62c6c005-f975-4fcd-9f75-12b983bfe07e.png)
 
-## There are two versions available. If "Version 1.0" does not work on your computer, use "Version 2.0"
 
+## How to Download & Install
+Click on the "Code" button in green. Click "Download zip" from the drop-down menu.and extract it. Open extracted folder. 
+There are two versions available. If Version 1.0 does not work, try Version 2.0.
 
-## How to Install on Windows ?
-copy all files from "For Windows Users" and paste them in C:\Users\Username\.enve\ShaderEffects
+## Windows ?
+copy all files from "Version 1.0" or "Version 2.0" (all frag and gre) to C:\Users\Username\.enve\ShaderEffects
 
+## Linux
 
-## How to install on Linux
-
-copy all files from "for linux users" (frag and gre)to
+Copy all files from "Version 1.0" or "Version 2.0" (all frag and gre)to
 /home/username/.enve/ShaderEffects
 
 ## HOw to USe?
