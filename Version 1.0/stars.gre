@@ -1,0 +1,15 @@
+<!-- Adapted from Natron Community plugins " // Adapted to Natron by F.Fernandez
+// Original code : crok_stars Matchbox for Autodesk Flame "
+ Rebuilt for enve by axiomgraph -->
+<ShaderEffect name="Stars" menuPath="Light And Shadow">
+    <Properties>
+      <Property name="iTime" nameUI="Time" type="float" min="0.0" max="10000.0" ini="1.0" step ="0.02" glValue="true"/>
+      <Property name="Speed"   type="float" min="-1000.0" max="1000.0" ini="1.0" step ="0.1" glValue="true"/>
+      <Property name="Density"  type="float" min="0.0" max="10.0" ini="10.0" step ="0.1" glValue="true"/>
+      <Property name="Brightness"  type="float" min="0.0" max="10.0" ini="1.0" step ="0.1" glValue="true"/>
+      <Property name="Seed" type="float" min="3.0" max="100.0" ini="6.5" step ="0.1" glValue="true"/>
+    </Properties>
+    <glValues>
+      <glValue name="scenePos"  type="vec2" value="[_eRect[2], _eRect[3]]"/>
+    </glValues>   
+</ShaderEffect>
