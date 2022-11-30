@@ -7,7 +7,7 @@ Click on the "Code" button in green. Click "Download zip" from the drop-down men
 There are two versions available. If Version 1.0 does not work, try Version 2.0.
 
 ## Windows ?
-copy all files from "Version 1.0" or "Version 2.0" (all frag and gre) to C:\Users\Username\.enve\ShaderEffects
+Copy all files from "Version 1.0" or "Version 2.0" (all frag and gre) to C:\Users\Username\.enve\ShaderEffects
 
 ## Linux
 
