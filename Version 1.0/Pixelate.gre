@@ -1,5 +1,5 @@
 
-<ShaderEffect name="Pixelate" menuPath="Filters">
+<ShaderEffect name="Pixelate" menuPath="Stylize">
     <Properties>
         <Property name="size" type="float" min="0" max="100" ini="1.0" step="0.1" glValue="true"/>
         </Properties>
