@@ -12,6 +12,6 @@ void main(void) {
     if(invert == 0) {
         fragColor = color;
     } else {
-    fragColor = vec4(invert -color.rgb,color.a);
+    fragColor = vec4(1.0-color.rgb,color.a);
     }
 }
