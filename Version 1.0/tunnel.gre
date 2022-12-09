@@ -12,7 +12,6 @@
       <Property name="BOUNDING_CYLINDER" nameUI="Bounding Cylinder" type="float" min="0.0" max="100.0" ini="1.8" step ="1.0" glValue="true"/>
       <Property name="INSIDE_CYLINDER" nameUI="Inside Cylinder" type="float" min="0.0" max="100.0" ini="0.32" step ="1.0" glValue="true"/>
 
-      <Property name="EPS" nameUI="EPS" type="float" min="0.0" max="100.0" ini="0.0001" step ="0.1" glValue="true"/>
       <Property name="FOG_DISTANCE" nameUI="Fog Distance" type="float" min="0.0" max="100.0" ini="30.0" step ="0.1" glValue="true"/>
 
       <Property name="col1" nameUI="Color 1" type="color" ini="[1.0, 0.5, 0.2,1.0]" step ="0.1" glValue="true"/>

@@ -16,16 +16,16 @@ in vec2 texCoord;
 
 uniform float iTime;//
 
-uniform float RAYMARCH_ITERATIONS = 60.0;
+uniform float RAYMARCH_ITERATIONS;// = 60.0;
 
 float TIME = (iTime * 0.4);
-uniform float  LINE_LENGTH =1.0;
-uniform float LINE_SPACE= 1.0;
-uniform float LINE_WIDTH =0.007;
-uniform float BOUNDING_CYLINDER =1.8;
-uniform float INSIDE_CYLINDER= 0.32;
-uniform float EPS =0.0001;
-uniform float FOG_DISTANCE= 30.0;
+uniform float  LINE_LENGTH;// =1.0;//
+uniform float LINE_SPACE;//= 1.0;
+uniform float LINE_WIDTH;// =0.007;
+uniform float BOUNDING_CYLINDER;// =1.8;
+uniform float INSIDE_CYLINDER;//= 0.32;
+
+uniform float FOG_DISTANCE;//= 30.0;
 
 uniform vec4 col1;
 vec4 FIRST_COLOR =col1 * 1.2;
