@@ -23,7 +23,7 @@ uniform int invert;
 
 
 void main(void) {
-	vec4 textureColor = texture2D(texture, vec2(texCoord.x, texCoord.y));
+	vec4 textureColor = texture2D(texture,texCoord);
 	float alpha = textureColor.a;
 	if (feather == 0.0) {
 		if (texCoord.x < (left*0.01) || texCoord.y < (top*0.01) || texCoord.x > (1.0-(right*0.01)) || texCoord.y > (1.0-(bottom*0.01))) {
@@ -39,16 +39,7 @@ void main(void) {
 
 	if (invert==1)
 	{fragColor = vec4(
-		textureColor.r*(1.0 - alpha),
-		textureColor.g*(1.0 - alpha),
-		textureColor.b*(1.0 - alpha),
-		1.0 - alpha
-	);}
+		textureColor.r*(1.0 - alpha),textureColor.g*(1.0 - alpha),textureColor.b*(1.0 - alpha),	1.0 - alpha)*textureColor.a;}
 	else{
-		fragColor = vec4(
-		textureColor.r*(alpha),
-		textureColor.g*(alpha),
-		textureColor.b*(alpha),
-		alpha
-	);}
+		fragColor = vec4(textureColor.r*(alpha),textureColor.g*(alpha),textureColor.b*(alpha),alpha)*textureColor.a;}
 }
