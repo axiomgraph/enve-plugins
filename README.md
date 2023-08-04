@@ -26,4 +26,5 @@ Copy all files from "Version 1.0" or "Version 2.0" (all frag and gre)to
 /home/username/.config/friction/ShaderEffects
 
 ## Windows
+Copy all files from "Version 1.0" or "Version 2.0" (all frag and gre) to 
 C:\Users\<Username>\AppData\Local\friction\ShaderEffects
