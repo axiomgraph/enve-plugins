@@ -14,10 +14,6 @@ Copy all files from "Version 1.0" or "Version 2.0" (all frag and gre) to C:\User
 Copy all files from "Version 1.0" or "Version 2.0" (all frag and gre)to
 /home/username/.enve/ShaderEffects
 
-## HOw to USe?
-Select the layer right click on it. Actions --> Raster Effects --> There you go
-
-
 ## For Friction(fork of enve) Users?
 ## Linux
 
@@ -28,3 +24,8 @@ Copy all files from "Version 1.0" or "Version 2.0" (all frag and gre)to
 ## Windows
 Copy all files from "Version 1.0" or "Version 2.0" (all frag and gre) to 
 C:\Users\<Username>\AppData\Local\friction\ShaderEffects
+
+## HOw to USe?
+Select the layer right click on it. Actions --> Raster Effects --> There you go
+
+
