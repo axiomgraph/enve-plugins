@@ -26,10 +26,20 @@ Copy all files from "Version 1.0" or "Version 2.0" (all frag and gre)to
 /home/username/.config/friction/ShaderEffects
 
 ## Windows
+Two ways to install 
+
+Using Installer
+
+Note "there are options for choosing version 1.0 or version 2.0. First try version 2.0; if it does not work, uninstall. and install again using version 1.0 as an option"
+
+Manual Installation
+
 Copy all files from "Version 1.0" or "Version 2.0" (all frag and gre) to 
 C:\Users\<Username>\AppData\Local\friction\ShaderEffects
 
-## HOw to USe?
+## HOW to USE?
 Select the layer right click on it. Actions --> Raster Effects --> There you go
+
+any errors? Let us know. Contributions are welcome if you know GLSL.
 
 
