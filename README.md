@@ -1,3 +1,9 @@
+## Important Note
+Since 2022, the development of Enve has stalled. I recommend using friction, which is a fork of enve.
+
+Download Link
+https://github.com/friction2d/friction
+
 # enve plugins
 ![enve2d plugins](https://user-images.githubusercontent.com/68183694/202194317-62c6c005-f975-4fcd-9f75-12b983bfe07e.png)
 
