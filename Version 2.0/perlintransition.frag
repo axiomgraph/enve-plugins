@@ -77,8 +77,8 @@ vec4 transition (vec2 uv) {
 void main(void)
 {
     // Normalized pixel coordinates (from 0 to 1)
-  vec2 uv = gl_FragCoord.xy/resolution.xy;
+ // vec2 uv = gl_FragCoord.xy/resolution.xy;
    // Output to screen
-    fragColor = transition(uv);
+    fragColor = transition(texCoord);
 }
 
