@@ -34,9 +34,9 @@ vec4 transition(vec2 uv) {
   //vec4 texTo = getToColor(p + inv*disp); // for future use
     vec4 texTo = vec4(0.0);
   vec4 texFrom = vec4(
- texture(texture,p + progress*disp*(1.0 - colorSeparation)).r,
- texture(texture,p + progress*disp).g,
-texture(texture,p + progress*disp*(1.0 + colorSeparation)).b,
+ texture2D(texture,p + progress*disp*(1.0 - colorSeparation)).r,
+ texture2D(texture,p + progress*disp).g,
+texture2D(texture,p + progress*disp*(1.0 + colorSeparation)).b,
   1.0);
   return texTo*progress + texFrom*inv;
 }
