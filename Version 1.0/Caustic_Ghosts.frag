@@ -126,10 +126,9 @@ void main(void)
 	uv.x *= resolution.x/resolution.y; //fix aspect ratio
 	vec3 mouse = vec3(Position.xy/resolution.xy - 0.5,0.0);
 	mouse.x *= resolution.x/resolution.y; //fix aspect ratio
-	vec3 color = lensflare(uv,mouse.xy,brightness,size*globalSize);
-	
-    vec2 xy = gl_FragCoord.xy / resolution.xy;
-    vec4 linker = texture2D(texture,xy);
+	vec3 color = lensflare(uv,mouse.xy,brightness,size*globalSize);	
+     
+	vec4 linker = texture2D(texture,texCoord);
     
 	fragColor = vec4(pow(color.rgb, vec3(1.5)),1.0)+linker;
 }
