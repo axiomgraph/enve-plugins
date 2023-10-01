@@ -13,7 +13,7 @@
 // SPDX-License-Identifier: GPL-3.0-or-later
  Adapted from burnmywindows
  Adapted for enve/friction by axiomgraph-->
-<ShaderEffect name="Hexagon" menuPath="Transition">
+<ShaderEffect name="Hexagon" menuPath="Transitions">
     <Properties>
 	<Property name="uProgress" nameUI="Progress" type="float" min="0.0" max="1.5" ini="0.5" step ="0.1" glValue="true"/>
 	<Property name="uAdditiveBlending" nameUI="Additive Blending" type="int" min="0" max="1" ini="0" step ="1" glValue="true"/>
